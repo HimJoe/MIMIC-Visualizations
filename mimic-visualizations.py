@@ -12,7 +12,7 @@ patients = pd.read_csv("PATIENTS.csv")
 admissions = pd.read_csv("ADMISSIONS.csv")
 diagnoses = pd.read_csv("DIAGNOSES_ICD.csv")
 
-# Normalize column names to uppercase so that our references (e.g., "ADMITTIME") match
+# Normalize column names to uppercase so that the references (e.g., "ADMISSIONS") match
 patients.columns = patients.columns.str.upper()
 admissions.columns = admissions.columns.str.upper()
 diagnoses.columns = diagnoses.columns.str.upper()
