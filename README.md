@@ -1,5 +1,5 @@
 # MIMIC-Visualizations
-This repository contains five visualizations built using the MIMIC III demo dataset. The project is designed to provide insights into patient data from electronic health records (EHR), including demographics, admission trends, diagnosis frequencies, and patient outcomes. The visualizations cover:
+This repository contains five visualizations built using the MIMIC III demo dataset(https://physionet.org/content/mimiciii-demo/1.4/). The project is designed to provide insights into patient data from electronic health records (EHR), including demographics, admission trends, diagnosis frequencies, and patient outcomes. The visualizations cover:
 
 1. Patient Age Distribution at Admission:
    A histogram with a KDE overlay of patient ages at admission.
